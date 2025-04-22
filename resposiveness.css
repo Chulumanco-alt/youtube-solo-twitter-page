@@ -1,0 +1,33 @@
+@media only screen and (max-width: 480px) {
+    .side-bar-column, .icon-name, .nav-icons-button svg:nth-last-child(4), .nav-icons-button svg:nth-last-child(2), .account-details, .navigation button {
+        display: none;
+    }
+    .content-container {
+        width: calc(100vw - 68px);
+    }
+    .navigation {
+        padding-left: 0;
+        width: 68px;
+    }
+    .mobile-icon svg {
+        display: flex;
+        background: white;
+        border-radius: 50%;
+        padding: 10px;
+        width: 50px;
+        margin-right: 40px;
+    }
+    .mobile-icon {
+        padding: 0px 0px 80px 7px;
+    }
+    .account img{
+        padding-left: 10px;
+    }
+    .first-nav button {
+        padding: 20px 50px 0px 50px;
+
+    }
+    .first-nav button:last-child {
+        padding: 15px 50px 20px 50px;
+    }
+}
